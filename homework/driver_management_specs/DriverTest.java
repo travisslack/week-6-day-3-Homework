@@ -16,4 +16,14 @@ public class DriverTest {
   public void testName() {
     assertEquals("Travis", driver.getName() );
   }
+
+  @Test
+  public void testdriverHasCar() {
+    assertEquals(dodgemCar, driver.getVehicle() );
+  }
+
+  @Test 
+  public void canDriveTheDistance() {
+    assertEquals(2, driver.driveTime(200) );
+  }
 }

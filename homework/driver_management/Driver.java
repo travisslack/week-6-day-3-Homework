@@ -14,9 +14,17 @@ public class Driver {
     return this.name;
   }
 
+  public Driveable getVehicle() {
+    return this.drive;
+  }
+
+  public int driveTime(int distance) {
+    return this.drive.driveTime(distance);
+  }
+
   // public String driveTime() {
   //   return this.drive.
   // } 
 
-  
+
 }
