@@ -22,9 +22,7 @@ public class Driver {
     return this.drive.driveTime(distance);
   }
 
-  // public String driveTime() {
-  //   return this.drive.
-  // } 
+
 
 
 }
